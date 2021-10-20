@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF5F6"
+    tools:context=".RegisterFragment">
+
+    <TextView
+        android:id="@+id/passTxtView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passTxtView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="Retype \nPassword"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/titleTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Register"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_below="@id/titleTxtView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Username"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/inputUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTxtView"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@id/userTxtView"
+        android:ems="10"
+        android:hint="Enter a username"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/passTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_below="@id/userTxtView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="Password"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputUser"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/passTxtView"
+        android:ems="10"
+        android:hint="Enter a password"
+        android:inputType="textPassword"
+        android:textColorHint="#2196F3"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/passTxtView"
+        android:ems="10"
+        android:hint="Verify password"
+        android:inputType="textPassword"
+        android:textColorHint="#2196F3"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        app:backgroundTint="#095EA1" />
+</RelativeLayout>
